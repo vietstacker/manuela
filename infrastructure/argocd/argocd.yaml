@@ -5,8 +5,10 @@ metadata:
   namespace: argocd
 spec:
   server:
-    route: true
-    ingress: false
+    route: 
+      enabled: true
+    ingress: 
+      enabled: false
     insecure: false
     resources: {}
   dex:
